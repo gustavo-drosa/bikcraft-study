@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--cor-11);
+  padding-bottom: 1000px;
+}
+h1,
+ul,
+p,
+a {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  /* herdar sempre o valor do pai */
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
