@@ -6,6 +6,8 @@ body {
 }
 h1,
 h2,
+h3,
+h4,
 ul,
 p,
 a {
@@ -27,4 +29,9 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+
+/* toda tag img que tenha uma src terminada em .jpg vai receber esse estilo */
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
