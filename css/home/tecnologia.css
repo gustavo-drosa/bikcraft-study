@@ -18,6 +18,7 @@
 
 .tecnologia-conteudo {
   padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 .tecnologia-conteudo > span {
@@ -41,7 +42,6 @@
 .tecnologia-vantagens {
   display: flex;
   gap: 40px;
-  padding-bottom: 160px;
 }
 
 .tecnologia-vantagens h3 {
@@ -70,9 +70,6 @@
   }
   .tecnologia-imagem {
     display: none;
-  }
-  .tecnologia-vantagens {
-    padding-bottom: 0px;
   }
 }
 
