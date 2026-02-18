@@ -1,0 +1,28 @@
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+}
+
+.secundarias {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.descricao {
+  margin-bottom: 20px;
+}
+
+.extra {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: red;
+}
+
+.extra span {
+  padding: 2px;
+}
