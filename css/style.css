@@ -11,13 +11,15 @@
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
 
+/* BICICLETAS */
 @import "./bicicletas/bicicletas-lista.css";
-@import "./bicicletas/bicicletas-interna.css";
+@import "./bicicletas/bicicletas.css";
+
+/* bicicleta */
+@import "./bicicleta/bicicleta.css";
 
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
 
 @import "./termos/termos.css";
-
-@import "./bicicletas/bicicletas.css";
