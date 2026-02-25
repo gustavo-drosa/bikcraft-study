@@ -26,6 +26,9 @@ a {
   color: inherit;
   /* herdar sempre o valor do pai */
 }
+button {
+  border: none;
+}
 
 img {
   max-width: 100%;
