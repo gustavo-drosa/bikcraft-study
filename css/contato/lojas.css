@@ -1,0 +1,55 @@
+.lojas-locais {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 120px;
+  margin-top: 60px;
+}
+
+.lojas-locais div img {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.lojas-informacao {
+  background-color: var(--cor-0);
+  border-radius: 0px 0px 5px 5px;
+  border: 1px solid var(--cor-2);
+  padding: 32px;
+  position: relative;
+}
+.lojas-informacao h2 {
+  padding-left: 20px;
+}
+
+.lojas-informacao h2::before {
+  content: "";
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  position: absolute;
+  top: 46px;
+  left: 30px;
+}
+
+.lojas-endereco {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px 0px 32px 0px;
+}
+
+.lojas-endereco div {
+  border-left: 2px solid var(--cor-2);
+  padding-left: 12px;
+}
+
+.lojas-endereco div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+.lojas-horario {
+  background: url("../../img/icones/horario.svg") no-repeat 0px -1px;
+}
+.lojas-horario {
+  padding-left: 25px;
+}
