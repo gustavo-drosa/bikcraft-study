@@ -19,6 +19,7 @@
     sans-serif;
   max-width: max-content;
   /*tamanho maximo do btn vai ser seu próprio tamanho, não vai ocupar outras grids*/
+  cursor: pointer;
 }
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);

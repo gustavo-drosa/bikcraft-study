@@ -23,7 +23,7 @@
   padding: 12px;
   border-radius: 4px;
   width: 100%;
-  box-sizing: border-box; /*evia o padding "comer" o elemento do lado*/
+  box-sizing: border-box; /*evita o padding "comer" o elemento do lado*/
 }
 
 .form input[type="text"]:focus,
@@ -35,23 +35,15 @@
   box-shadow: 0 0 0 1px #fea;
 }
 
-.form div {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.form textarea {
-  display: block;
-  background-color: var(--cor-1);
-  border: 1px solid var(--cor-2);
-  border-radius: 5px;
-}
-
 .form .col-2 {
   grid-column: 1 / -1;
 }
 
-.contato {
-  margin-bottom: 120px;
+@media (max-width: 600px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+  .form .col-2 {
+    grid-column: 1;
+  }
 }
