@@ -22,6 +22,10 @@
   min-width: 200px;
 }
 
+.bicicleta-imagens img:hover {
+  cursor: pointer;
+}
+
 .bicicleta-imagens img:first-child {
   min-width: 100%;
 }
