@@ -53,7 +53,7 @@ function eventoImagem(img) {
 
 galeria.forEach(eventoImagem);
 
-//Plugin
+//Plugin, somente se existir na pagina, carregar
 if (window.SimpleAnime) {
   new SimpleAnime();
 }
