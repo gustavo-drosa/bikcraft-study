@@ -43,7 +43,7 @@
       </div>
     </div>
 
-    <form class="orcamento container" action="./">
+    <form class="orcamento container" action="#" method="post" id="formulario-orcamento">
       <div class="orcamento-produto">
         <h2 class="font-1-xs cor-5">Bikcraft ou Seguro?</h2>
 
@@ -121,7 +121,7 @@
           </div>
           <div class="col-2">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" required>
           </div>
 
         </div>
@@ -152,7 +152,7 @@
           <input type="text" id="estado" name="estado">
         </div>
 
-        <button class="botao col-2">Solicitar Orçamento </button>
+        <button class="botao col-2" type="submit" value="Send">Solicitar Orçamento </button>
 
       </div>
     </form>
@@ -204,7 +204,12 @@
   </footer>
 
 
+  <script src="./js/plugins/mail-orcamento.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="./js/plugins/mail-orcamento.js"></script>
+
   <script src="./js/script.js"></script>
+
 </body>
 
 </html>
