@@ -1,3 +1,4 @@
+// not used
 const formulario = document.querySelector("form");
 
 function formularioEnviado(resposta) {
